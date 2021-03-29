@@ -59,8 +59,7 @@ namespace helloWorld
                 }
             }
             
-            topic = Console.ReadLine();
-            if (topic == "b")
+            else
             {
                 Console.WriteLine("Whats a robot favourite type of music? - Heavy metal.");
 
@@ -83,7 +82,7 @@ namespace helloWorld
                     return;
                 }
             }
-            Console.WriteLine("No more jokes for you today!");
+            Console.WriteLine("And that's it for today!");
             Console.WriteLine("Now please leave me alone, it is time for my dancing lessons of roomba! ");
         }
     }
